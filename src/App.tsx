@@ -1,12 +1,5 @@
 import './App.css'
-
-function Profile() {
-
-  return (
-    <img src="https://tse1.explicit.bing.net/th/id/OIP.te0HmdRkNqBvTZrUZci6wgHaFS?rs=1&pid=ImgDetMain&o=7&rm=3"
-         alt="doggy"/>
-  )
-}
+import Profile from './Doggy.tsx'
 
 export default function App() {
     return (
