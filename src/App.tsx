@@ -1,12 +1,10 @@
 import './App.css'
-import Profile from './Doggy.tsx'
+import Gallery from './Doggy.tsx'
 
 export default function App() {
     return (
     <section>
-        <Profile/>
-        <Profile/>
-        <Profile/>
+        <Gallery/>
     </section>
     )
 }
