@@ -13,7 +13,8 @@ function Profile() {
 
 function Header() {
     return (
-        <h1>Doggy <WhoIs/></h1>
+        <h1 style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
+            Doggy owner:&nbsp; <WhoIs/></h1>
     )
 }
 
