@@ -1,6 +1,8 @@
 import './App.css'
+import WhoIs from './Avatar.tsx'
 
 const howManyTimes = 4;
+
 function Profile() {
     return (
         <img src="https://tse1.explicit.bing.net/th/id/OIP.te0HmdRkNqBvTZrUZci6wgHaFS?rs=1&pid=ImgDetMain&o=7&rm=3"
@@ -8,9 +10,10 @@ function Profile() {
     );
 }
 
+
 function Header() {
     return (
-        <h1>Doggy</h1>
+        <h1>Doggy <WhoIs/></h1>
     )
 }
 
